@@ -9,5 +9,6 @@ go run hello.go<br>
 http://localhost:1323/ にアクセスでHello,Worldと表示される。<br>
 
 go run server_get.go (go run server_post.go) <br>
-http://localhost:1323/user?name=oku_echo&email=foovar@gmail.com/にアクセスすると<br>
+http://localhost:1323/user?name=oku_echo&email=foovar@gmail.com/<br>
+にアクセスすると
 {"name":"oku_echo","email":"foovar@gmail.com"}というようにJSONが帰ってくる。<br>

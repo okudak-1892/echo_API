@@ -6,17 +6,17 @@ import (
 	"github.com/labstack/echo"
 )
 
-type User struct {
-	Name  string `json:"name"`
-	Email string `json:"email"`
-}
+// type User struct {
+// 	Name  string `json:"name"`
+// 	Email string `json:"email"`
+// }
 
-func main() {
-	e := echo.New()
-	e.POST("/users", display)
+// func main() {
+// 	e := echo.New()
+// 	e.POST("/users", display)
 
-	e.Logger.Fatal(e.Start(":1323"))
-}
+// 	e.Logger.Fatal(e.Start(":1323"))
+// }
 
 func display(c echo.Context) error {
 	u := new(User)
